@@ -1,7 +1,11 @@
 {
   "expo": {
-    "name": "mobile-app",
+    "name": "BodyUp",
     "slug": "mobile-app",
-    "version": "1.0.0"
+    "icon": "./src/assets/BodyUpLogo.png",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./src/assets/BodyUpLogo.png"
+    }
   }
 }
