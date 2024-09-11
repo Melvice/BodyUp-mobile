@@ -32,9 +32,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
+    shadowOpacity: 0.3,
     shadowRadius: 3.84,
     elevation: 5,
+    borderColor: "#ddd",
+    borderWidth: 1,
   },
   image: {
     width: "100%",

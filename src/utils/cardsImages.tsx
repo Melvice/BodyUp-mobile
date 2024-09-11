@@ -1,5 +1,5 @@
 export const CardsImages = [
-  { id: "1", title: "all", image: require("../assets/Fullbody.jpg") },
+  { id: "1", title: "Full Body", image: require("../assets/Fullbody.jpg") },
   { id: "2", title: "cardio", image: require("../assets/cardio.jpeg") },
   { id: "3", title: "chest", image: require("../assets/chest.jpg") },
   { id: "4", title: "lower arms", image: require("../assets/foreArm.webp") },

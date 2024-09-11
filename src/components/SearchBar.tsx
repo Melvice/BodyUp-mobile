@@ -16,7 +16,7 @@ const SearchBar = ({
 }: SearchBarProps) => {
   return (
     <View style={styles.container}>
-      <Ionicons name="search" size={20} color="gray" style={styles.icon} />
+      <Ionicons name="search" size={20} color="black" style={styles.icon} />
       <TextInput
         style={styles.input}
         placeholder="Search..."
@@ -24,6 +24,7 @@ const SearchBar = ({
         value={searchQuery}
         onChangeText={(text) => setSearchQuery(text)}
         onSubmitEditing={onSubmit}
+        autoFocus={true} // to auto-focus the input field
       />
     </View>
   );
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#F0F0F0",
+    backgroundColor: "#FFF",
     borderRadius: 25,
     padding: 10,
     margin: 10,
